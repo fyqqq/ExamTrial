@@ -28,7 +28,6 @@ public class splash extends AppCompatActivity {
         progressBar.setProgress(0);
         textView.setText("");
 
-        final long period = 20;
 
         timer = new Timer();
 
@@ -53,6 +52,6 @@ public class splash extends AppCompatActivity {
                     finish();
                 }
             }
-        },0,period);
+        },0,20);
     }
     }
